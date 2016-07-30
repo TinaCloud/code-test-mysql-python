@@ -53,9 +53,9 @@ def main():
     files_path = '/Users/rui/Desktop/IMTest/data'
 
     # Connect to the database
-    connection = pymysql.connect(host='173.194.106.251',
-                                 user='root',
-                                 password='InfectiousTraining',
+    connection = pymysql.connect(host='localhost',
+                                 user='???',
+                                 password='???',
                                  db='test_rui',
                                  charset='utf8mb4',
                                  cursorclass=pymysql.cursors.DictCursor)
